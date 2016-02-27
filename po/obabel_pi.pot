@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the obabel_pi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: obabel_pi 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-27 17:03-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/obabelUIDialog.cpp:448
+msgid ""
+"Using oBabel\n"
+"--------------------------------------------------------------\n"
+"The oBabel plugin attempts to make it easier to transfer data from OpenCPN to "
+"Garmin Chartplotters.\n"
+"\n"
+"1. Using 'right-click' on a route or waypoint in OpenCPN provides copying as "
+"KML. \n"
+"This KML can be entered in the plugin clipboard with a 'right-click'. \n"
+"Choose the correct options for the transfer, using 'KML' from the dropdown "
+"menu.\n"
+"Send the clipboard to Garmin via GPSBabel.\n"
+"\n"
+"2. GPX files exported from OpenCPN can be sent to a Garmin Chartplotter. "
+"Again, choose the correct options, using 'oGPX' from the dropdown menu.\n"
+"\n"
+"3. For EasyGPS GPX files (and possibly some other types) you will need to "
+"select 'GPX' from the dropdown.\n"
+"\n"
+"--------------------------------------------------------------------\n"
+msgstr ""
+
+#: src/obabelUIDialog.cpp:448
+msgid "About oBabel"
+msgstr ""
+
+#: src/obabelUIDialog.cpp:538
+msgid "Import GPX file"
+msgstr ""
+
+#: src/obabelUIDialogBase.cpp:27
+msgid "Locate GPSBabel"
+msgstr ""
+
+#: src/obabelUIDialogBase.cpp:28
+msgid "Select location of GPSBabel"
+msgstr ""
+
+#: src/obabelUIDialogBase.h:73
+msgid "oBabel KML/GPX exporter for Chartplotters"
+msgstr ""
+
+#: src/obabel_pi.cpp:109
+msgid "obabel"
+msgstr ""
+
+#: src/obabel_pi.cpp:174
+msgid "obabel PlugIn for OpenCPN"
+msgstr ""
+
+#: src/obabel_pi.cpp:180
+msgid ""
+"obabel PlugIn for OpenCPN \n"
+"For uploading KML/GPX routes and waypoints to Chartplotters.\n"
+"\n"
+"\t\t\t   "
+msgstr ""
