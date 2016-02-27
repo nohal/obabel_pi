@@ -35,8 +35,9 @@
 #include <stdlib.h>
 #include "obabel_pi.h"
 #include "icons.h"
+#ifdef __WXWIN__
 #include <windows.h>
-
+#endif
 using namespace std;
 
 #if !wxCHECK_VERSION(2,9,4) /* to work with wx 2.8 */
@@ -261,6 +262,7 @@ wxArrayString *EnumerateSerialPorts( void )
     }
 
 #endif      // __WXGTK__
+/* TODO: reimplement in a way that works...
 #ifdef __WXOSX__
 #include "macutils.h"
     char* paPortNames[MAX_SERIAL_PORTS];
@@ -275,6 +277,7 @@ wxArrayString *EnumerateSerialPorts( void )
         free(paPortNames[iPortIndex]);
     }
 #endif      //__WXOSX__
+*/
 #ifdef __WXMSW__
     /*************************************************************************
      * Windows provides no system level enumeration of available serial ports
